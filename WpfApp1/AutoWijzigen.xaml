@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.AutoWijzigen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="AutoWijzigen" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="txtKentenken" HorizontalAlignment="Left" Margin="204,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="24"/>
+        <TextBox x:Name="txtPrijs" HorizontalAlignment="Left" Margin="204,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="24"/>
+        <TextBox x:Name="txtMerk" HorizontalAlignment="Left" Margin="204,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="24"/>
+        <TextBox x:Name="txtBouwjaar" HorizontalAlignment="Left" Margin="204,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" Height="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="88,112,0,0" TextWrapping="Wrap" Text="Kenteken" VerticalAlignment="Top" Height="24" Width="100" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="88,182,0,0" TextWrapping="Wrap" Text="Merk" VerticalAlignment="Top" Height="24" Width="100" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="88,149,0,0" TextWrapping="Wrap" Text="Prijs" VerticalAlignment="Top" Height="24" Width="100" FontSize="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="88,217,0,0" TextWrapping="Wrap" Text="Bouwjaar" VerticalAlignment="Top" Height="24" Width="100" FontSize="15"/>
+        <Button x:Name="btnOpslaan" Content="Opslaan" HorizontalAlignment="Left" Margin="204,246,0,0" VerticalAlignment="Top" Width="100" Height="24" Click="btnOpslaan_Click"/>
+        <Button x:Name="BtnAnnuleren" Content="Annuleren" HorizontalAlignment="Left" Margin="331,246,0,0" VerticalAlignment="Top" Width="100" Height="24" Click="BtnAnnuleren_Click"/>
+
+    </Grid>
+</Window>
