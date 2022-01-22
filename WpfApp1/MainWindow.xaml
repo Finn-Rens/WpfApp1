@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="dgAuto" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="541">
+        <DataGrid x:Name="dgAuto" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="541" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Id}" ClipboardContentBinding="{x:Null}" Header="Id"/>
+                <DataGridTextColumn Binding="{Binding Id}" Visibility="Hidden" ClipboardContentBinding="{x:Null}" Header="Id"/>
                 <DataGridTextColumn Binding="{Binding Kenteken}" ClipboardContentBinding="{x:Null}" Header="Kenteken"/>
                 <DataGridTextColumn Binding="{Binding Prijs}" ClipboardContentBinding="{x:Null}" Header="Prijs"/>
                 <DataGridTextColumn Binding="{Binding Bouwjaar}" ClipboardContentBinding="{x:Null}" Header="Bouwjaar"/>
